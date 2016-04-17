@@ -1,0 +1,22 @@
+.local/share/applications/
+
+google-chrome.desktop
+[Desktop Entry]
+Name=chrome
+Exec=google-chrome-stable --password-store=basic
+StartupNotify=true
+Terminal=false
+Type=Application
+Icon=/home/cwc/Pictures/icons/chrome.png
+
+$ pwd
+/home/cwc/.local/share/applications
+cwc@ciclo ~/.local/share/applications $ more arduino.desktop 
+[Desktop Entry]
+Name=arduino
+Exec=/opt/arduino/arduino
+StartupNotify=true
+Terminal=false
+Type=Application
+Icon=/home/cwc/Pictures/icons/arduino.png
+
